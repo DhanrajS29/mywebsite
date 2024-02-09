@@ -3,7 +3,7 @@ import './App.css';
 import {BrowserRouter as Router } from "react-router-dom";
 import { darkTheme, lightTheme } from "./utils/themes";
 import Navbar from "./components/Navbar";
-import Skills from "./components/Skills";
+import Skills  from "./components/Skills";
 // import Experiences from "./components/Experience";
 import styled from "styled-components";
 import { useState } from "react";
@@ -36,7 +36,6 @@ function App() {
             <HeroSection />
             <Wrapper>
               <Skills />
-              
             </Wrapper>
           </Body>
       </Router>
